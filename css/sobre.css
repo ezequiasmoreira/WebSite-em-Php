@@ -1,0 +1,17 @@
+
+.titulo{width: 100%; float: left; margin-top: 2%}
+.artigosImg{width: 90%; margin-left: 5%;margin-top: 2%;}
+.titulo{font-size: 2em; text-align: center;}
+.texto{font-size: 0.9em; text-align: center; width: 96%; margin-left:2%;}
+
+@media screen and (min-width: 480px){
+    .artigosImg{width: 80%; margin-left: 10%;}
+    
+}
+
+@media screen and (min-width: 900px){
+    .texto{width: 80%; margin-left:10%;}
+    .artigosImg{width: 70%; margin-left: 15%;}
+    
+}
+

@@ -1,0 +1,22 @@
+
+#title h2{width: 100%; float: left; font-size: 1em;text-align: center;
+   background-color: #ffcc33;}
+.categoria{text-align: center; }
+#indexSection,#tabela tr td,#tabela{width: 100%;}
+
+.imgt{width: 100%; float: left;}
+img{cursor: pointer;}
+.seletor {
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+@media screen and (min-width: 900px){
+    .imgt{width: 60%; float: left; margin-left: 20%;}
+    #title h2{padding: 1% 0; font-size: 2em; color: #fff; }
+    .categoria{padding: 1% 0; background-color: #fff; font-weight: bold;}
+}

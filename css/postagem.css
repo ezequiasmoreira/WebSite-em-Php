@@ -1,0 +1,26 @@
+#contato{width: 100%; float: left;}
+#formPostagem{margin-top: 2%; width: 100%;margin-bottom: 2%; float: left;}
+#titulo,#btns,select,.inputForm{width: 90%; margin-left: 5%; float: left; text-align: 
+center;}
+#titulo{font-size: 1.5em;}
+
+
+.seleciona{margin-bottom: 2%;}
+.Botao{width: 40%; float: left; margin-top: 2%; padding: 2% 0; border-radius: 7px; color: #000;
+      background-color: #ffcc00; cursor: pointer; border: 2px solid #fff;}
+.Botao:hover{background-color: #ffcc66}
+.Botao2{margin-left: 4%;}
+
+
+select,.inputForm{ padding: 2% 0; margin-top: 2%; border-radius: 7px; background-color: #ffff99}
+.selecionar{width: 25%; margin-left: 15%;}
+.labelSelect{ width: 90%; margin-left: 5%; float: left; text-align: 
+center; }
+@media screen and (min-width: 720px){
+  #btns,.inputForm{width: 70%; margin-left: 15%; float: left; text-align:center;}
+}/*
+@media screen and (min-width: 1200px){
+   #btns,.inputForm{width: 50%; margin-left: 25%; float: left; text-align: 
+center;}
+   
+}*/

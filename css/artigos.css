@@ -1,0 +1,19 @@
+
+.artigos,.titulo,.subtitulo,.legenda{width: 100%; float: left;}
+.artigosImg{width: 90%; margin-left: 5%;margin-top: 2%;}
+.legenda{width: 95%;font-size: 0.5em; margin-left: 5%;margin-bottom: 2%; }
+.titulo{font-size: 2em; text-align: center;}
+.subtitulo{font-size: 1.5em; text-align: center; margin-bottom: 2%; }
+.texto{font-size: 0.9em; text-align: justify; width: 96%; margin-left:2%;}
+
+@media screen and (min-width: 480px){
+    .artigosImg{width: 80%; margin-left: 10%;}
+    .legenda{width: 90%;font-size: 0.8em; margin-left: 10%;}
+}
+
+@media screen and (min-width: 900px){
+    .texto{width: 80%; margin-left:10%;}
+    .artigosImg{width: 70%; margin-left: 15%;}
+    .legenda{width: 85%;font-size: 0.8em; margin-left: 15%;}
+}
+

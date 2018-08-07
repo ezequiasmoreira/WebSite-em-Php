@@ -1,0 +1,27 @@
+*{text-decoration: none;}
+.menuAdm{width: 100%; float: left; }
+.cadastro{width: 100%; float: left; background-color: #ff9933; text-align: center; height: 1000px;  }
+.cadastro a{color: #fff;}
+.cadastro li{padding: 2% 0; background: linear-gradient(to top,  rgba(0,0,0,0.20), #ff9933); border-radius: 7px;  }
+.cadastro a:hover{color:#fff; font-weight: bold;}
+.formNotificacao,.conteudo{width: 100%; float:left;}
+.pstatus{width: 100%; float: left; text-align: center; font-size: 1.2em; background-color: red; color: #fff;}
+.notificacao{width: 100%; float: left; text-align: center;}
+.selectNotificacao{width: 70%; float: left; background-color:  #ff9933;  border-radius: 7px; margin-left: 15%;
+padding: 1.5% 0; }
+
+.todosOrcamento{width: 100%; float: left; padding: 1.5% 0; color: #000; text-align: center; background-color: #fff;}
+.notificacao{margin-top: 4%; }
+.btnNotificacao{width: 70%; float: left; margin-left: 15%; color:#fff; background-color: #000; padding: 1.5% 0; margin-top: 1.5%;
+margin-bottom: 1.5%;border-radius: 7px; cursor: pointer;}
+.btnNotificacao:hover{background-color:#ff9933; font-weight: bold;}
+
+
+@media screen and (min-width: 900px){
+   .cadastro{width: 25%;}
+   .conteudo{width: 75%;}
+   .btnNotificacao{width: 30%; margin-left: 35%;}
+    
+}
+
+
